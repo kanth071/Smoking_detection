@@ -85,3 +85,12 @@ python train_cigarette.py
 - **Precision Cigarette Detection**: Trained on 4,000+ labelled smoking dataset images with Small-Target-Aware Label Assignment (STAL).
 - **Decoupled 50+ FPS Video Streaming**: Camera streaming is decoupled from deep inference passes for smooth, lag-free playback.
 - **Automatic Evidence Snapshots**: Automatically captures JPEG evidence snapshots and logs violations to an SQLite database (`visionguard.db`).
+
+
+---
+
+## Dashboard Screenshots
+
+| Live Monitoring | Violation Photos | Analytics |
+|---|---|---|
+| ![Live Monitoring dashboard with real-time camera feed and smoking detection](docs/screenshots/live-monitoring.png) | ![Violation photos evidence gallery with confirmed and rejected smoking violations](docs/screenshots/violation-photos.png) | ![Analytics dashboard showing violation log and summary](docs/screenshots/analytics.jpg) |
